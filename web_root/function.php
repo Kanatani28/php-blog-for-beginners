@@ -1,5 +1,5 @@
 <?php
-define("ARTICLES_PATH", "./privacy/articles.csv");
+define("ARTICLES_PATH", "../privacy/articles.csv");
 
 /**
  * 画面遷移する
