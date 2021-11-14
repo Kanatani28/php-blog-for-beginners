@@ -19,10 +19,14 @@ require("./function.php");
 $articles = get_articles();
 
 for($i = 0; $i < count($articles); $i++) {
-    echo "<tr>";
-    echo "  <td>" . $articles[$i][0] . "</td>";
-    echo "  <td>" . $articles[$i][1] . "</td>";
-    echo "</tr>";
+    $id = $articles[$i][0];
+    $title = $articles[$i][1];
+?>
+    <tr>
+        <td><?= $id ?></td>
+        <td><?= $title ?></td>
+    </tr>
+<?php
 }
 ?>
     </table>

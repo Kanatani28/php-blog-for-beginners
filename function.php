@@ -55,14 +55,14 @@ function get_article($id) {
 /**
  * 記事を更新する
  */
-function update_article($id) {
+function update_article($id, $title, $body) {
 
 }
 
 /**
  * 記事を作成する
  */
-function create_article($id, $title, $body) {
+function create_article($title, $body) {
 
 }
 
